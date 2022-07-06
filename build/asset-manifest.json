@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/lorenzomunoz.es/static/css/main.153767e4.css",
+    "main.js": "/lorenzomunoz.es/static/js/main.b2e92e0e.js",
+    "static/media/burger1.png": "/lorenzomunoz.es/static/media/burger1.662442f7a7fc2b43be4a.png",
+    "static/media/apple1.png": "/lorenzomunoz.es/static/media/apple1.1520c7b6315d2f486ea0.png",
+    "static/media/CV.pdf": "/lorenzomunoz.es/static/media/CV.9768885bf0aa48b405cd.pdf",
+    "static/media/me-about.png": "/lorenzomunoz.es/static/media/me-about.0ec7303e27ebe2edda08.png",
+    "static/media/coming-soon.png": "/lorenzomunoz.es/static/media/coming-soon.a65903d6056d959c402c.png",
+    "static/media/me.png": "/lorenzomunoz.es/static/media/me.ee0b75de258251bd050c.png",
+    "index.html": "/lorenzomunoz.es/index.html",
+    "main.153767e4.css.map": "/lorenzomunoz.es/static/css/main.153767e4.css.map",
+    "main.b2e92e0e.js.map": "/lorenzomunoz.es/static/js/main.b2e92e0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153767e4.css",
+    "static/js/main.b2e92e0e.js"
+  ]
+}
