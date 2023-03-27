@@ -23,11 +23,11 @@
   min-height: 205px;
 }
 
-.portfolio__item h3 {
+.portfolio__item h2 {
   margin: 1.2rem 0 .5rem;
 }
 
-.portfolio__item h5 {
+.portfolio__item h4 {
   margin: .5rem 0 1rem;
   min-height: 80px;
 }

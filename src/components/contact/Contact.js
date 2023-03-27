@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import Mensaje from '../../assets/Mensaje.gif'
+import Mensaje from '../../assets/icons-languages/Mensaje.gif'
 // import {HiOutlineMail} from 'react-icons/hi'
 
 function Contact () {

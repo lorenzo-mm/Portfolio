@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
-import Verificado from '../../assets/Verificado.gif'
-import Carpeta from '../../assets/Carpeta.gif'
+import Verificado from '../../assets/icons-languages/Verificado.gif'
+import Carpeta from '../../assets/icons-languages/Carpeta.gif'
 // import {FiAward} from 'react-icons/fi'
 // import {BsFolderCheck} from 'react-icons/bs'
 

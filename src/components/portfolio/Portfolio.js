@@ -3,10 +3,13 @@ import './portfolio.css'
 import Apple from '../../assets/apple1.png'
 import Burger from '../../assets/burger1.png'
 import Admin from '../../assets/admin1.png'
+import Calculadora from '../../assets/calculadora.png'
+import Mapfre from '../../assets/mapfre.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
-import ReactIcon from '../../assets/React_icon.gif'
-import CssIcon from '../../assets/Css.gif'
-import HtmlIcon from '../../assets/Html.gif'
+import HtmlIcon from '../../assets/icons-languages/html-icon.gif'
+import CssIcon from '../../assets/icons-languages/Css.gif'
+import JavaScriptIcon from '../../assets/icons-languages/js-icon.gif'
+import ReactIcon from '../../assets/icons-languages/React_icon.gif'
 
 const data = [
   {
@@ -15,7 +18,7 @@ const data = [
     title: 'Clon pagina principal de Apple',
     subtitle: 'Creada usando Html, Css y flexbox.',
     languages: [HtmlIcon, CssIcon],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
+    github: 'https://github.com/lorenzo-mm/Projects/tree/main/Apple-2021',
     demo: 'https://github.com/lorenzo-mm/Pagina-apple'
   },
   {
@@ -24,7 +27,7 @@ const data = [
     title: 'Pagina web de Hamburguesas',
     subtitle: 'Creada usando Html, Css y flexbox.',
     languages: [HtmlIcon, CssIcon],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
+    github: 'https://github.com/lorenzo-mm/Projects/tree/main/Burger%20Website',
     demo: 'https://github.com/lorenzo-mm/Burger-Website'
   },
   {
@@ -33,23 +36,23 @@ const data = [
     title: 'Admin Dashboard',
     subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
     languages: [HtmlIcon, CssIcon, ReactIcon],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
+    github: 'https://github.com/lorenzo-mm/Projects/tree/main/react-admin',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
   {
     id: 4,
-    image: ComingSoon,
-    title: 'Proximamente.....',
-    subtitle: 'usando puro Html y Css con flexbox',
-    languages: [ReactIcon, CssIcon],
+    image: Calculadora,
+    title: 'Calculadora',
+    subtitle: 'Creada usando Html, Css y JavaScript con modo claro y oscuro',
+    languages: [HtmlIcon, CssIcon, JavaScriptIcon],
     github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
   {
     id: 5,
-    image: ComingSoon,
-    title: 'Proximamente.....',
-    subtitle: 'usando puro Html y Css con flexbox',
+    image: Mapfre,
+    title: 'Portal Interno Mapfre',
+    subtitle: 'Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.',
     languages: [ReactIcon],
     github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
@@ -79,12 +82,12 @@ function Portfolio () {
                 <div className='portfolio__item-image'>
                   <img src={image} alt={title} />
                 </div>
-                <h3>
+                <h2>
                   {title}
-                </h3>
-                <h5>
+                </h2>
+                <h4>
                   {subtitle}
-                </h5>
+                </h4>
                 <div>
                   {
                     languages.map(data => <img src={data} alt='icon' className='animated_icon' key={' '} />)

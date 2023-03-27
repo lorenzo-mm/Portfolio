@@ -1,6 +1,10 @@
 import React from 'react'
 import './footer.css'
-import { TbBrandFacebook, TbBrandInstagram, TbBrandTwitter } from 'react-icons/tb'
+import UseAnimations from 'react-useanimations'
+import Facebook from 'react-useanimations/lib/facebook'
+import Instagram from 'react-useanimations/lib/instagram'
+import Twitter from 'react-useanimations/lib/twitter'
+// import { TbBrandFacebook, TbBrandInstagram, TbBrandTwitter } from 'react-icons/tb'
 
 function Footer () {
   return (
@@ -11,17 +15,17 @@ function Footer () {
         <a
           href='https://www.facebook.com/profile.php?id=100012029921842'
         >
-          <TbBrandFacebook />
+          <UseAnimations animation={Facebook} />
         </a>
         <a
           href='https://www.instagram.com/lorensiox/'
         >
-          <TbBrandInstagram />
+          <UseAnimations animation={Instagram} />
         </a>
         <a
-          href='https://twitter.com/Donlorensio'
+          href='https://twitter.com/Lorendev_'
         >
-          <TbBrandTwitter />
+          <UseAnimations animation={Twitter} />
         </a>
       </div>
 
