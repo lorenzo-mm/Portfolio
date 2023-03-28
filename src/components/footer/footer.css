@@ -22,6 +22,7 @@ footer a {
   justify-content: center;
   gap: 1rem;
   margin-bottom: 4rem;
+  transition: transform .2s;
 }
 
 .footer__socials a {
@@ -30,11 +31,11 @@ footer a {
   padding: .8rem;
   border-radius: .7rem;
   display: flex;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .footer__socials a:hover {
-  background: transparent;
+  transform: scale(1.1);
   color: var(--color-bg);
   border-color: var(--color-bg);
 }

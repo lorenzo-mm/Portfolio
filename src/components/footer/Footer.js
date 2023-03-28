@@ -15,17 +15,17 @@ function Footer () {
         <a
           href='https://www.facebook.com/profile.php?id=100012029921842'
         >
-          <UseAnimations animation={Facebook} />
+          <UseAnimations animation={Facebook} strokeColor='#4db5ff' />
         </a>
         <a
           href='https://www.instagram.com/lorensiox/'
         >
-          <UseAnimations animation={Instagram} />
+          <UseAnimations animation={Instagram} strokeColor='#4db5ff' />
         </a>
         <a
           href='https://twitter.com/Lorendev_'
         >
-          <UseAnimations animation={Twitter} />
+          <UseAnimations animation={Twitter} strokeColor='#4db5ff' />
         </a>
       </div>
 
