@@ -6,9 +6,7 @@ import Admin from '../../assets/admin1.png'
 import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
-import HtmlIcon from '../../assets/icons-languages/icon-animated/animated/Logo1'
-import CssIcon from '../../assets/icons-languages/icon-animated/css.svg'
-import JavaScriptIcon from '../../assets/icons-languages/icon-animated/js.svg'
+import { Logo1, Logo2, Logo3 } from '../../assets/icons-languages/icon-animated/animated'
 import ReactIcon from '../../assets/icons-languages/react_icon.gif'
 
 const data = [
@@ -17,7 +15,7 @@ const data = [
     image: Apple,
     title: 'Clon pagina principal de Apple',
     subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [HtmlIcon, CssIcon],
+    languages: [Logo1, Logo2],
     github: 'https://github.com/lorenzo-mm/Projects/tree/main/Apple-2021',
     demo: 'https://github.com/lorenzo-mm/Pagina-apple'
   },
@@ -26,7 +24,7 @@ const data = [
     image: Burger,
     title: 'Pagina web de Hamburguesas',
     subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [HtmlIcon, CssIcon],
+    languages: [Logo1, Logo2],
     github: 'https://github.com/lorenzo-mm/Projects/tree/main/Burger%20Website',
     demo: 'https://github.com/lorenzo-mm/Burger-Website'
   },
@@ -35,7 +33,7 @@ const data = [
     image: Admin,
     title: 'Admin Dashboard',
     subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
-    languages: [HtmlIcon, CssIcon, ReactIcon],
+    languages: [Logo1, Logo2, ReactIcon],
     github: 'https://github.com/lorenzo-mm/Projects/tree/main/react-admin',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
@@ -44,7 +42,7 @@ const data = [
     image: Calculadora,
     title: 'Calculadora',
     subtitle: 'Creada usando Html, Css y JavaScript con modo claro y oscuro',
-    languages: [HtmlIcon, CssIcon, JavaScriptIcon],
+    languages: [Logo1, Logo2, Logo3],
     github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
