@@ -6,10 +6,10 @@ import Admin from '../../assets/admin1.png'
 import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
-import HtmlIcon from '../../assets/icons-languages/html-icon.gif'
-import CssIcon from '../../assets/icons-languages/Css.gif'
-import JavaScriptIcon from '../../assets/icons-languages/js-icon.gif'
-import ReactIcon from '../../assets/icons-languages/React_icon.gif'
+import HtmlIcon from '../../assets/icons-languages/icon-animated/animated/Logo1'
+import CssIcon from '../../assets/icons-languages/icon-animated/css.svg'
+import JavaScriptIcon from '../../assets/icons-languages/icon-animated/js.svg'
+import ReactIcon from '../../assets/icons-languages/react_icon.gif'
 
 const data = [
   {
