@@ -5,8 +5,9 @@ import Burger from '../../assets/burger1.png'
 import Admin from '../../assets/admin1.png'
 import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
+import Spacex from '../../assets/spacex.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
-import { Logo1, Logo2, Logo3 } from '../../assets/icons-languages/icon-animated/animated'
+import { Logo1, Logo2, Logo3 } from '../../assets/icons-languages/icon-animated/animated.js'
 import ReactIcon from '../../assets/icons-languages/react_icon.gif'
 
 const data = [
@@ -16,8 +17,8 @@ const data = [
     title: 'Clon pagina principal de Apple',
     subtitle: 'Creada usando Html, Css y flexbox.',
     languages: [Logo1, Logo2],
-    github: 'https://github.com/lorenzo-mm/Projects/tree/main/Apple-2021',
-    demo: 'https://github.com/lorenzo-mm/Pagina-apple'
+    github: 'https://github.com/lorenzo-mm/Clon-Apple-2021',
+    demo: 'https://lorenzo-mm.github.io/Clon-Apple-2021/'
   },
   {
     id: 2,
@@ -25,8 +26,8 @@ const data = [
     title: 'Pagina web de Hamburguesas',
     subtitle: 'Creada usando Html, Css y flexbox.',
     languages: [Logo1, Logo2],
-    github: 'https://github.com/lorenzo-mm/Projects/tree/main/Burger%20Website',
-    demo: 'https://github.com/lorenzo-mm/Burger-Website'
+    github: 'https://github.com/lorenzo-mm/Burger-Website',
+    demo: 'https://lorenzo-mm.github.io/Burger-Website/'
   },
   {
     id: 3,
@@ -34,8 +35,8 @@ const data = [
     title: 'Admin Dashboard',
     subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
     languages: [Logo1, Logo2, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/Projects/tree/main/react-admin',
-    demo: 'https://github.com/lorenzo-mm/TechNews.'
+    github: 'https://github.com/lorenzo-mm/Dashboard-Admin-with-React',
+    demo: 'https://lorenzo-mm.github.io/Dashboard-Admin-with-React/'
   },
   {
     id: 4,
@@ -43,8 +44,8 @@ const data = [
     title: 'Calculadora',
     subtitle: 'Creada usando Html, Css y JavaScript con modo claro y oscuro',
     languages: [Logo1, Logo2, Logo3],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
-    demo: 'https://github.com/lorenzo-mm/TechNews.'
+    github: 'https://github.com/lorenzo-mm/Calculator',
+    demo: 'https://lorenzo-mm.github.io/Calculator/'
   },
   {
     id: 5,
@@ -52,17 +53,44 @@ const data = [
     title: 'Portal Interno Mapfre',
     subtitle: 'Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.',
     languages: [ReactIcon],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
+    github: 'https://github.com/lorenzo-mm/portal-mapfre',
     demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
   {
     id: 6,
-    image: ComingSoon,
-    title: 'Proximamente.....',
-    subtitle: 'usando puro Html y Css con flexbox',
+    image: Spacex,
+    title: 'SpaceX API',
+    subtitle: 'Creado con react y una api de spacex',
     languages: [ReactIcon],
-    github: 'https://github.com/lorenzo-mm?tab=overview&from=2022-04-01&to=2022-04-30',
-    demo: 'https://github.com/lorenzo-mm/TechNews.'
+    github: 'https://github.com/lorenzo-mm/Space-X-API-with-React',
+    demo: 'https://lorenzo-mm.github.io/Space-X-API-with-React/'
+  },
+  {
+    id: 7,
+    image: ComingSoon,
+    title: 'Proximamente...',
+    subtitle: 'Proximamente...',
+    languages: [ReactIcon],
+    github: 'https://github.com/lorenzo-mm',
+    demo: 'https://github.com/lorenzo-mm'
+  },
+  {
+    id: 8,
+    image: ComingSoon,
+    title: 'Proximamente...',
+    subtitle: 'Proximamente...',
+    languages: [ReactIcon],
+    github: 'https://github.com/lorenzo-mm',
+    demo: 'https://github.com/lorenzo-mm'
+  },
+  {
+    id: 9,
+    image: ComingSoon,
+    title: 'Proximamente...',
+    subtitle: 'Proximamente...',
+    languages: [ReactIcon],
+    github: 'https://github.com/lorenzo-mm',
+    demo: 'https://github.com/lorenzo-mm'
   }
 ]
 
