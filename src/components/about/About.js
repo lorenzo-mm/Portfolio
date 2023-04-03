@@ -34,7 +34,7 @@ function About () {
             <article className='about__card'>
               <img src={Carpeta} alt='carpeta' className='about__icon' />
               <h5>Proyectos</h5>
-              <small>10+ completados</small>
+              <small>5+ completados</small>
             </article>
           </div>
 
