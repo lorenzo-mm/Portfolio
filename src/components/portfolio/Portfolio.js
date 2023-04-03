@@ -7,8 +7,11 @@ import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
 import Spacex from '../../assets/spacex.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
-import Logo1 from '../../assets/icons-languages/icon-animated/logo1.js'
+import Html from '../../assets/icons-languages/icon-animated/html.svg'
+import Css from '../../assets/icons-languages/icon-animated/css.svg'
+import Js from '../../assets/icons-languages/icon-animated/js.svg'
 import ReactIcon from '../../assets/icons-languages/icon-animated/react_icon.gif'
+import Next13 from '../../assets/icons-languages/icon-animated/nextjs.svg'
 
 const data = [
   {
@@ -16,7 +19,7 @@ const data = [
     image: Apple,
     title: 'Clon pagina principal de Apple',
     subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [Logo1],
+    languages: [Html, Css],
     github: 'https://github.com/lorenzo-mm/Clon-Apple-2021',
     demo: 'https://lorenzo-mm.github.io/Clon-Apple-2021/'
   },
@@ -25,52 +28,52 @@ const data = [
     image: Burger,
     title: 'Pagina web de Hamburguesas',
     subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [Logo1],
+    languages: [Html, Css],
     github: 'https://github.com/lorenzo-mm/Burger-Website',
     demo: 'https://lorenzo-mm.github.io/Burger-Website/'
   },
   {
     id: 3,
-    image: Admin,
-    title: 'Admin Dashboard',
-    subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
-    languages: [Logo1, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/Dashboard-Admin-with-React',
-    demo: 'https://lorenzo-mm.github.io/Dashboard-Admin-with-React/'
-  },
-  {
-    id: 4,
     image: Calculadora,
     title: 'Calculadora',
     subtitle: 'Creada usando Html, Css y JavaScript con modo claro y oscuro',
-    languages: [Logo1],
+    languages: [Html, Css, Js],
     github: 'https://github.com/lorenzo-mm/Calculator',
     demo: 'https://lorenzo-mm.github.io/Calculator/'
   },
   {
-    id: 5,
-    image: Mapfre,
-    title: 'Portal Interno Mapfre',
-    subtitle: 'Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.',
-    languages: [ReactIcon],
-    github: 'https://github.com/lorenzo-mm/portal-mapfre',
-    demo: 'https://github.com/lorenzo-mm/TechNews.'
-  },
-  {
-    id: 6,
+    id: 4,
     image: Spacex,
     title: 'SpaceX API',
     subtitle: 'Creado con react y una api de spacex',
-    languages: [ReactIcon],
+    languages: [Html, Css, Js, ReactIcon],
     github: 'https://github.com/lorenzo-mm/Space-X-API-with-React',
     demo: 'https://lorenzo-mm.github.io/Space-X-API-with-React/'
+  },
+  {
+    id: 5,
+    image: Admin,
+    title: 'Admin Dashboard',
+    subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
+    languages: [Html, Css, Js, ReactIcon],
+    github: 'https://github.com/lorenzo-mm/Dashboard-Admin-with-React',
+    demo: 'https://lorenzo-mm.github.io/Dashboard-Admin-with-React/'
+  },
+  {
+    id: 6,
+    image: Mapfre,
+    title: 'Portal Interno Mapfre',
+    subtitle: 'Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.',
+    languages: [Html, Css, Js, ReactIcon, Next13],
+    github: 'https://github.com/lorenzo-mm/portal-mapfre',
+    demo: 'https://github.com/lorenzo-mm/TechNews.'
   },
   {
     id: 7,
     image: ComingSoon,
     title: 'Proximamente...',
     subtitle: 'Proximamente...',
-    languages: [ReactIcon],
+    languages: [],
     github: 'https://github.com/lorenzo-mm',
     demo: 'https://github.com/lorenzo-mm'
   },
@@ -79,7 +82,7 @@ const data = [
     image: ComingSoon,
     title: 'Proximamente...',
     subtitle: 'Proximamente...',
-    languages: [ReactIcon],
+    languages: [],
     github: 'https://github.com/lorenzo-mm',
     demo: 'https://github.com/lorenzo-mm'
   },
@@ -88,7 +91,7 @@ const data = [
     image: ComingSoon,
     title: 'Proximamente...',
     subtitle: 'Proximamente...',
-    languages: [ReactIcon],
+    languages: [],
     github: 'https://github.com/lorenzo-mm',
     demo: 'https://github.com/lorenzo-mm'
   }
