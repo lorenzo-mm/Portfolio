@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import Mensaje from '../../assets/icons-languages/mensaje1.gif'
+import Mensaje from '../../assets/icons-languages/icon-animated/mensaje1.gif'
 
 function Contact () {
   return (

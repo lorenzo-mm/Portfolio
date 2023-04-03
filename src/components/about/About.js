@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
-import Verificado from '../../assets/icons-languages/verificado1.gif'
-import Carpeta from '../../assets/icons-languages/Carpeta.gif'
+import Verificado from '../../assets/icons-languages/icon-animated/verificado1.gif'
+import Carpeta from '../../assets/icons-languages/icon-animated/Carpeta.gif'
 
 function About () {
   return (
