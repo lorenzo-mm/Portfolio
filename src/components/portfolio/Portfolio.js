@@ -1,11 +1,13 @@
 import React from 'react'
 import './portfolio.css'
+
 import Apple from '../../assets/apple1.png'
 import Burger from '../../assets/burger1.png'
 import Admin from '../../assets/admin1.png'
 import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
 import Spacex from '../../assets/spacex.PNG'
+import Pptss from '../../assets/pptss.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
 import Html from '../../assets/icons-languages/icon-animated/html.svg'
 import Css from '../../assets/icons-languages/icon-animated/css.svg'
@@ -70,10 +72,10 @@ const data = [
   },
   {
     id: 7,
-    image: ComingSoon,
-    title: 'Proximamente...',
-    subtitle: 'Proximamente...',
-    languages: [],
+    image: Pptss,
+    title: 'Piedra, Papel, Tigera, Serpiente, Spock',
+    subtitle: 'Juego',
+    languages: [Html, Css, Js, ReactIcon],
     github: 'https://github.com/lorenzo-mm',
     demo: 'https://github.com/lorenzo-mm'
   },
