@@ -73,11 +73,11 @@ const data = [
   {
     id: 7,
     image: Pptss,
-    title: 'Piedra, Papel, Tigera, Serpiente, Spock',
+    title: 'Piedra, Papel, Tijera, Serpiente, Spock',
     subtitle: 'Juego',
     languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm',
-    demo: 'https://github.com/lorenzo-mm'
+    github: 'https://github.com/lorenzo-mm/piedra-papel-tijera-serpiente-spock',
+    demo: 'https://lorenzo-mm.github.io/piedra-papel-tijera-serpiente-spock/'
   },
   {
     id: 8,
