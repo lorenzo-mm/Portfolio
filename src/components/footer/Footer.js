@@ -4,7 +4,6 @@ import UseAnimations from 'react-useanimations'
 import Facebook from 'react-useanimations/lib/facebook'
 import Instagram from 'react-useanimations/lib/instagram'
 import Twitter from 'react-useanimations/lib/twitter'
-// import { TbBrandFacebook, TbBrandInstagram, TbBrandTwitter } from 'react-icons/tb'
 
 function Footer () {
   return (
@@ -31,7 +30,7 @@ function Footer () {
 
       <div className='footer__copyright'>
         <small>
-          &copy; Lorenzo Muñoz. Todos los derechos reservados.
+          Diseñado con 💚 por <a href='https://github.com/lorenzo-mm' alt='' style={{ fontWeight: 'bold' }}>Lorenzo Muñoz</a>
         </small>
       </div>
     </footer>
