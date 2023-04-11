@@ -84,10 +84,10 @@ const data = [
   {
     id: 8,
     image: Todolist,
-    title: 'Proximamente...',
+    title: 'Todo List',
     subtitle: 'Proximamente...',
-    languages: [],
-    github: 'https://github.com/lorenzo-mm',
+    languages: [Html, Css, Js, ReactIcon, Next13],
+    github: 'https://github.com/lorenzo-mm/Todo-List',
     demo: 'https://github.com/lorenzo-mm'
   },
   {
