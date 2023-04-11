@@ -8,7 +8,9 @@ import Calculadora from '../../assets/calculadora.png'
 import Mapfre from '../../assets/mapfre.PNG'
 import Spacex from '../../assets/spacex.PNG'
 import Pptss from '../../assets/pptss.PNG'
+import Todolist from '../../assets/todolist.PNG'
 import ComingSoon from '../../assets/coming-soon.png'
+
 import Html from '../../assets/icons-languages/icon-animated/html.svg'
 import Css from '../../assets/icons-languages/icon-animated/css.svg'
 import Js from '../../assets/icons-languages/icon-animated/js.svg'
@@ -81,7 +83,7 @@ const data = [
   },
   {
     id: 8,
-    image: ComingSoon,
+    image: Todolist,
     title: 'Proximamente...',
     subtitle: 'Proximamente...',
     languages: [],
