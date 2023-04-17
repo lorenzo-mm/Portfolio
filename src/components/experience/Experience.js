@@ -52,7 +52,7 @@ function Experience () {
             <article className='experience__details'>
               <BsCheck2Circle className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Material UI</h4>
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
