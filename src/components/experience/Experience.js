@@ -24,7 +24,7 @@ function Experience () {
             <article className='experience__details'>
               <BsCheck2Circle className='experience__details-icon' />
               <div>
-                <h4>CSS3</h4>
+                <h4>CSS3/SCSS</h4>
                 <small className='text-light'>Experimentado</small>
               </div>
             </article>
@@ -45,7 +45,7 @@ function Experience () {
             <article className='experience__details'>
               <BsCheck2Circle className='experience__details-icon' />
               <div>
-                <h4>Sass</h4>
+                <h4>NextJS</h4>
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
@@ -66,7 +66,7 @@ function Experience () {
             <article className='experience__details'>
               <BsCheck2Circle className='experience__details-icon' />
               <div>
-                <h4>Node.Js</h4>
+                <h4>NodeJS</h4>
                 <small className='text-light'>Experimentado</small>
               </div>
             </article>
