@@ -25,7 +25,7 @@ const data = [
     subtitle: 'Creada usando Html, Css y flexbox.',
     languages: [Html, Css],
     github: 'https://github.com/lorenzo-mm/Clon-Apple-2021',
-    demo: 'https://lorenzo-mm.github.io/Clon-Apple-2021/'
+    demo: 'https://lorenzo-mm.github.io/apple-page-clon/Html/'
   },
   {
     id: 2,
