@@ -9,7 +9,8 @@ import Mapfre from '../../assets/mapfre.PNG'
 import Spacex from '../../assets/spacex.PNG'
 import Pptss from '../../assets/pptss.PNG'
 import Todolist from '../../assets/todolist.PNG'
-import ComingSoon from '../../assets/coming-soon.png'
+import AgeCalculator from '../../assets/agecalculator.PNG'
+// import ComingSoon from '../../assets/coming-soon.png'
 
 import Html from '../../assets/icons-languages/icon-animated/html.svg'
 import Css from '../../assets/icons-languages/icon-animated/css.svg'
@@ -88,16 +89,16 @@ const data = [
     subtitle: 'Proximamente...',
     languages: [Html, Css, Js, ReactIcon, Next13],
     github: 'https://github.com/lorenzo-mm/Todo-List',
-    demo: 'https://github.com/lorenzo-mm'
+    demo: 'https://lorenzo-mm.github.io/todo-list/'
   },
   {
     id: 9,
-    image: ComingSoon,
-    title: 'Proximamente...',
+    image: AgeCalculator,
+    title: 'Age Calculator',
     subtitle: 'Proximamente...',
-    languages: [],
+    languages: [Html, Css, Js, ReactIcon],
     github: 'https://github.com/lorenzo-mm',
-    demo: 'https://github.com/lorenzo-mm'
+    demo: 'https://lorenzo-mm.github.io/age-calculator-main/'
   }
 ]
 
