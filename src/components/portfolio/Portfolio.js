@@ -79,8 +79,8 @@ const data = [
     title: 'Piedra, Papel, Tijera, Serpiente, Spock',
     subtitle: 'Juego',
     languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/piedra-papel-tijera-serpiente-spock',
-    demo: 'https://lorenzo-mm.github.io/piedra-papel-tijera-serpiente-spock/'
+    github: 'https://github.com/lorenzo-mm/react-rpsls-main',
+    demo: 'https://lorenzo-mm.github.io/react-rpsls-main/'
   },
   {
     id: 8,
