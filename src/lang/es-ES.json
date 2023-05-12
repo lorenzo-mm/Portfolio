@@ -1,0 +1,79 @@
+{
+  "app.bienvenido": "Hola, me llamo",
+  "boton.cv": "Descarga CV",
+  "boton.contacto": "Contacto",
+
+  "text.scroll": "Scroll hacia abajo",
+
+  "subtitulo.about": "Algo más",
+  "titulo.about": "Sobre Mi",
+
+  "titulo.años": "Experiencia",
+  "subtitulo.años": "1 Año trabajando",
+
+  "titulo.proyectos": "Proyectos",
+  "subtitulo.proyectos": "9+ completados",
+
+  "about.me1": "Apasionado por la tecnología, la programación y el diseño. Me encantan los retos y el trabajo en equipo.",
+  "about.me2": "Con ganas de aportar mis conocimiento y aprender siempre en modo organizado. Especializándome en Desarrollo Web y Diseño Web, con el objetivo de hacer la mejor experencia para el usuario.",
+  "about.me3": "Me encantaría tener ocasión de demostrar mis habilidades en su empresa.",
+
+  "boton.hablemos": "Hablemos",
+
+  "subtitulo.experiencia": "Lenguajes que domino",
+  "titulo.experiencia": "Mi Experiencia",
+
+  "titulo.frontend": "Desarollo Frontend",
+  "html": "HTML5",
+  "css": "CSS3/SASS",
+  "javascript": "JavaScript",
+  "reactjs": "ReactJS",
+  "nextjs": "NextJS",
+  "mui": "Material UI",
+
+  "titulo.backend": "Desarollo Backend",
+  "nodejs": "NodeJS",
+  "mongodb": "MongoDB",
+  "git": "Git",
+  "sql": "MySQL",
+  "github": "GitHub",
+
+  "basico": "Basico",
+  "intermedio": "Intermedio",
+  "experimentado": "Experimentado",
+
+  "subtitulo.portfolio": "Mis Trabajos Recientes",
+  "titulo.portfolio": "Portfolio",
+
+  "apple": "Clon pagina principal de Apple",
+  "descripcion.apple": "Creada usando Html, Css y flexbox.",
+
+  "burger": "Pagina web de Hamburguesas",
+  "descripcion.burger": "Creada usando Html, Css y flexbox.",
+  
+  "calculadora": "Calculadora",
+  "descripcion.calculadora": "Creada usando Html, Css y JavaScript con modo claro y oscuro",
+
+  "spacex": "SpaceX API",
+  "descripcion.spacex": "Creado con react y una api de spacex",
+
+  "admin": "Admin Dashboard",
+  "descripcion.admin": "Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.",
+
+  "mapfre": "Portal Interno Mapfre",
+  "descripcion.mapfre": "Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.",
+
+  "pptss": "Piedra, Papel, Tijera, Serpiente, Spock",
+  "descripcion.pptss": "Juego",
+
+  "todo.list": "Todo List",
+  "descripcion.todo.list": "Proximamente...",
+
+  "age.calc": "Age Calculator",
+  "descripcion.age.calc": "Proximamente...",
+
+  "subtitulo.contacto": "Ponte en contacto",
+  "titulo.contacto": "Mi Contacto",
+
+  "mensaje": "Enviar un mensaje"
+}
