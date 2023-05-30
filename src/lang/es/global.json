@@ -1,0 +1,87 @@
+{
+  "header": {
+    "app_bienvenido": "Hola, me llamo",
+    "boton_cv": "Descarga CV",
+    "boton_contacto": "Contacto",
+  
+    "text_scroll": "Scroll hacia abajo"
+  },
+
+  "about": {
+    "subtitulo_about": "Algo más",
+    "titulo_about": "Sobre Mi",
+  
+    "titulo_años": "Experiencia",
+    "subtitulo_años": "1 Año trabajando",
+  
+    "titulo_proyectos": "Proyectos",
+    "subtitulo_proyectos": "9+ completados",
+  
+    "about_me1": "Apasionado por la tecnología, la programación y el diseño. Me encantan los retos y el trabajo en equipo.",
+    "about_me2": "Con ganas de aportar mis conocimiento y aprender siempre en modo organizado. Especializándome en Desarrollo Web y Diseño Web, con el objetivo de hacer la mejor experencia para el usuario.",
+    "about_me3": "Me encantaría tener ocasión de demostrar mis habilidades en su empresa.",
+  
+    "boton_hablemos": "Hablemos"
+  },
+
+  "experience": {
+    "subtitulo_experiencia": "Lenguajes que domino",
+    "titulo_experiencia": "Mi Experiencia",
+  
+    "titulo_frontend": "Desarollo Frontend",
+    "html": "HTML5",
+    "css": "CSS3/SASS",
+    "javascript": "JavaScript",
+    "reactjs": "ReactJS",
+    "nextjs": "NextJS",
+    "mui": "Material UI",
+  
+    "titulo_backend": "Desarollo Backend",
+    "nodejs": "NodeJS",
+    "mongodb": "MongoDB",
+    "git": "Git",
+    "sql": "MySQL",
+    "github": "GitHub",
+  
+    "basico": "Basico",
+    "intermedio": "Intermedio",
+    "experimentado": "Experimentado"
+  },
+
+  "portfolio": {
+    "subtitulo_portfolio": "Mis Trabajos Recientes",
+    "titulo_portfolio": "Portfolio",
+  
+    "apple": "Clon pagina principal de Apple",
+    "descripcion_apple": "Creada usando Html, Css y flexbox.",
+  
+    "burger": "Pagina web de Hamburguesas",
+    "descripcion_burger": "Creada usando Html, Css y flexbox.",
+    
+    "calculadora": "Calculadora",
+    "descripcion_calculadora": "Creada usando Html, Css y JavaScript con modo claro y oscuro",
+  
+    "spacex": "SpaceX API",
+    "descripcion_spacex": "Creado con react y una api de spacex",
+  
+    "admin": "Admin Dashboard",
+    "descripcion_admin": "Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.",
+  
+    "mapfre": "Portal Interno Mapfre",
+    "descripcion_mapfre": "Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.",
+  
+    "pptss": "Piedra, Papel, Tijera, Serpiente, Spock",
+    "descripcion_pptss": "Juego",
+  
+    "todo_list": "Todo List",
+    "descripcion_todo_list": "Proximamente...",
+  
+    "age_calc": "Age Calculator",
+    "descripcion_age_calc": "Proximamente...",
+  
+    "subtitulo_contacto": "Ponte en contacto",
+    "titulo_contacto": "Mi Contacto",
+  
+    "mensaje": "Enviar un mensaje"
+  }
+}

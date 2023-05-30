@@ -1,0 +1,82 @@
+{
+  "header": {
+    "app_bienvenido": "Hi, my name is",
+    "boton_cv": "Download CV",
+    "boton_contacto": "Contact",
+    "text_scroll": "scroll down"
+  },
+
+  "about": {
+    "subtitulo_about": "Get To Know",
+    "titulo_about": "About me",
+    "titulo_años": "Experience",
+    "subtitulo_años": "1 year working",
+    "titulo_proyectos": "Projects",
+    "subtitulo_proyectos": "9+ completed",
+    "about_me1": "Passionate about technology, programming and design. I love challenges and teamwork.",
+    "about_me2": "Eager to contribute my knowledge and always learn in an organized way. Specializing in Web Development and Web Design, with the aim of making the best experience for the user.",
+    "about_me3": "I would love the opportunity to demonstrate my skills in your company.",
+    "boton_hablemos": "Let's talk"
+  },
+
+  "experience": {
+    "subtitulo_experiencia": "Languages that I master",
+    "titulo_experiencia": "My experience",
+  
+    "titulo_frontend": "Frontend Development",
+    "html": "HTML5",
+    "css": "CSS3/SASS",
+    "javascript": "JavaScript",
+    "reactjs": "ReactJS",
+    "nextjs": "NextJS",
+    "mui": "Material UI",
+
+    "titulo_backend": "Backend development",
+    "nodejs": "NodeJS",
+    "mongodb": "MongoDB",
+    "git": "Git",
+    "sql": "MySQL",
+    "github": "GitHub",
+    
+    "basico": "Basic",
+    "intermedio": "Intermediate",
+    "experimentado": "Experienced"
+  },
+
+  "portfolio": {
+    "subtitulo_portfolio": "My Recent Works",
+    "titulo_portfolio": "Portfolio",
+  
+    "apple": "Apple Home Clone",
+    "descripcion_apple": "Created using Html, Css and flexbox.",
+  
+    "burger": "Burgers website",
+    "descripcion_burger": "Created using Html, Css and flexbox.",
+    
+    "calculadora": "Calculator",
+    "descripcion_calculadora": "Created using Html, Css and JavaScript with light and dark mode",
+  
+    "spacex": "SpaceX API",
+    "descripcion_spacex": "Created with react and a spacex api",
+  
+    "admin": "Admin Dashboard",
+    "descripcion_admin": "Built using React, Material UI, light and dark mode, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid.",
+  
+    "mapfre": "Mapfre Internal Portal",
+    "descripcion_mapfre": "Created using Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.",
+  
+    "pptss": "Rock, Paper, Scissors, Snake, Spock",
+    "descripcion_pptss": "Game",
+  
+    "todo_list": "Todo List",
+    "descripcion_todo_list": "Soon...",
+  
+    "age_calc": "Age Calculator",
+    "descripcion_age_calc": "Soon...",
+  
+    "subtitulo_contacto": "get in touch",
+    "titulo_contacto": "My contact",
+  
+    "mensaje": "Send a message"
+  }
+}
