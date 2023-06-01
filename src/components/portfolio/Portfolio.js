@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import { useTranslation } from 'react-i18next'
 
 import Apple from '../../assets/apple1.png'
 import Burger from '../../assets/burger1.png'
@@ -18,95 +19,98 @@ import Js from '../../assets/icons-languages/icon-animated/js.svg'
 import ReactIcon from '../../assets/icons-languages/icon-animated/react_icon.gif'
 import Next13 from '../../assets/icons-languages/icon-animated/nextjs.svg'
 
-const data = [
-  {
-    id: 1,
-    image: Apple,
-    title: 'Clon pagina principal de Apple',
-    subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [Html, Css],
-    github: 'https://github.com/lorenzo-mm/Clon-Apple-2021',
-    demo: 'https://lorenzo-mm.github.io/apple-page-clon/Html/'
-  },
-  {
-    id: 2,
-    image: Burger,
-    title: 'Pagina web de Hamburguesas',
-    subtitle: 'Creada usando Html, Css y flexbox.',
-    languages: [Html, Css],
-    github: 'https://github.com/lorenzo-mm/Burger-Website',
-    demo: 'https://lorenzo-mm.github.io/Burger-Website/'
-  },
-  {
-    id: 3,
-    image: Calculadora,
-    title: 'Calculadora',
-    subtitle: 'Creada usando Html, Css y JavaScript con modo claro y oscuro',
-    languages: [Html, Css, Js],
-    github: 'https://github.com/lorenzo-mm/Calculator',
-    demo: 'https://lorenzo-mm.github.io/Calculator/'
-  },
-  {
-    id: 4,
-    image: Spacex,
-    title: 'SpaceX API',
-    subtitle: 'Creado con react y una api de spacex',
-    languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/Space-X-API-with-React',
-    demo: 'https://lorenzo-mm.github.io/Space-X-API-with-React/'
-  },
-  {
-    id: 5,
-    image: Admin,
-    title: 'Admin Dashboard',
-    subtitle: 'Creada usando React, Material UI, modo claro y oscuro, Nivo Charts, Formik, Yup, FullCalendar, y Data Grid.',
-    languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/Dashboard-Admin-with-React',
-    demo: 'https://lorenzo-mm.github.io/Dashboard-Admin-with-React/'
-  },
-  {
-    id: 6,
-    image: Mapfre,
-    title: 'Portal Interno Mapfre',
-    subtitle: 'Creada usando Next 13, TailwindCSS, useState, useRouter, NextAuth, Google provider, Github provider, Credentials provider, Formik, MongoDB.',
-    languages: [Html, Css, Js, ReactIcon, Next13],
-    github: 'https://github.com/lorenzo-mm/portal-mapfre',
-    demo: 'https://github.com/lorenzo-mm/TechNews.'
-  },
-  {
-    id: 7,
-    image: Pptss,
-    title: 'Piedra, Papel, Tijera, Serpiente, Spock',
-    subtitle: 'Juego',
-    languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm/react-rpsls-main',
-    demo: 'https://lorenzo-mm.github.io/react-rpsls-main/'
-  },
-  {
-    id: 8,
-    image: Todolist,
-    title: 'Todo List',
-    subtitle: 'Proximamente...',
-    languages: [Html, Css, Js, ReactIcon, Next13],
-    github: 'https://github.com/lorenzo-mm/Todo-List',
-    demo: 'https://lorenzo-mm.github.io/todo-list/'
-  },
-  {
-    id: 9,
-    image: AgeCalculator,
-    title: 'Age Calculator',
-    subtitle: 'Proximamente...',
-    languages: [Html, Css, Js, ReactIcon],
-    github: 'https://github.com/lorenzo-mm',
-    demo: 'https://lorenzo-mm.github.io/age-calculator-main/'
-  }
-]
-
 function Portfolio () {
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18n] = useTranslation('global')
+
+  const data = [
+    {
+      id: 1,
+      image: Apple,
+      title: t('portfolio.apple'),
+      subtitle: t('portfolio.descripcion_apple'),
+      languages: [Html, Css],
+      github: 'https://github.com/lorenzo-mm/Clon-Apple-2021',
+      demo: 'https://lorenzo-mm.github.io/apple-page-clon/Html/'
+    },
+    {
+      id: 2,
+      image: Burger,
+      title: t('portfolio.burger'),
+      subtitle: t('portfolio.descripcion_burger'),
+      languages: [Html, Css],
+      github: 'https://github.com/lorenzo-mm/Burger-Website',
+      demo: 'https://lorenzo-mm.github.io/Burger-Website/'
+    },
+    {
+      id: 3,
+      image: Calculadora,
+      title: t('portfolio.calculadora'),
+      subtitle: t('portfolio.descripcion_calculadora'),
+      languages: [Html, Css, Js],
+      github: 'https://github.com/lorenzo-mm/Calculator',
+      demo: 'https://lorenzo-mm.github.io/Calculator/'
+    },
+    {
+      id: 4,
+      image: Spacex,
+      title: t('portfolio.spacex'),
+      subtitle: t('portfolio.descripcion_spacex'),
+      languages: [Html, Css, Js, ReactIcon],
+      github: 'https://github.com/lorenzo-mm/Space-X-API-with-React',
+      demo: 'https://lorenzo-mm.github.io/Space-X-API-with-React/'
+    },
+    {
+      id: 5,
+      image: Admin,
+      title: t('portfolio.admin'),
+      subtitle: t('portfolio.descripcion_admin'),
+      languages: [Html, Css, Js, ReactIcon],
+      github: 'https://github.com/lorenzo-mm/Dashboard-Admin-with-React',
+      demo: 'https://lorenzo-mm.github.io/Dashboard-Admin-with-React/'
+    },
+    {
+      id: 6,
+      image: Mapfre,
+      title: t('portfolio.mapfre'),
+      subtitle: t('portfolio.descripcion_mapfre'),
+      languages: [Html, Css, Js, ReactIcon, Next13],
+      github: 'https://github.com/lorenzo-mm/portal-mapfre',
+      demo: 'https://github.com/lorenzo-mm/TechNews.'
+    },
+    {
+      id: 7,
+      image: Pptss,
+      title: t('portfolio.pptss'),
+      subtitle: t('portfolio.descripcion_pptss'),
+      languages: [Html, Css, Js, ReactIcon],
+      github: 'https://github.com/lorenzo-mm/react-rpsls-main',
+      demo: 'https://lorenzo-mm.github.io/react-rpsls-main/'
+    },
+    {
+      id: 8,
+      image: Todolist,
+      title: t('portfolio.todo_list'),
+      subtitle: t('portfolio.descripcion_todo_list'),
+      languages: [Html, Css, Js, ReactIcon, Next13],
+      github: 'https://github.com/lorenzo-mm/Todo-List',
+      demo: 'https://lorenzo-mm.github.io/todo-list/'
+    },
+    {
+      id: 9,
+      image: AgeCalculator,
+      title: t('portfolio.age_calc'),
+      subtitle: t('portfolio.descripcion_age_calc'),
+      languages: [Html, Css, Js, ReactIcon],
+      github: 'https://github.com/lorenzo-mm',
+      demo: 'https://lorenzo-mm.github.io/age-calculator-main/'
+    }
+  ]
+
   return (
     <section id='portfolio'>
-      <h5>Mis Trabajos Recientes</h5>
-      <h2>Portfolio</h2>
+      <h5>{t('portfolio.subtitulo_portfolio')}</h5>
+      <h2>{t('portfolio.titulo_portfolio')}</h2>
 
       <div className='container portfolio__container'>
         {
@@ -124,7 +128,7 @@ function Portfolio () {
                 </h4>
                 <div>
                   {
-                    languages.map(data => <img src={data} alt='icon' className='animated_icon' key={' '} />)
+                    languages.map(data => <img src={data} alt='icon' className='animated_icon' key={data} />)
                   }
                 </div>
                 <div className='portfolio__item-cta'>

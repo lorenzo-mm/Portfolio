@@ -10,7 +10,7 @@ function Footer () {
     <footer>
       <a href='https://www.linkedin.com/in/lorenzo-mmuñoz/' className='footer__logo'>Lorenzo Muñoz</a>
 
-      <div className='footer__socials'>
+      <div className='footer__socials dark:from-secondary'>
         <a
           href='https://www.linkedin.com/in/lorenzo-mmuñoz/'
         >

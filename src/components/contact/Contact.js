@@ -2,11 +2,15 @@ import React from 'react'
 import './contact.css'
 import Mensaje from '../../assets/icons-languages/icon-animated/mensaje1.gif'
 
+import { useTranslation } from 'react-i18next'
+
 function Contact () {
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18n] = useTranslation('global')
   return (
     <section id='contact'>
-      <h5>Ponte en contacto</h5>
-      <h2>Mi Contacto</h2>
+      <h5>{t('portfolio.subtitulo_contacto')}</h5>
+      <h2>{t('portfolio.titulo_contacto')}</h2>
 
       <div className='container contact__container'>
         <div className='contact__options'>
@@ -19,7 +23,7 @@ function Contact () {
               target='_blank'
               rel='noreferrer'
             >
-              Enviar un mensaje
+              {t('portfolio.mensaje')}
             </a>
           </article>
         </div>

@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import './nav.css'
 import { AiOutlineHome } from 'react-icons/ai'
 import { BiUserPlus, BiBook, BiMessageSquareDetail } from 'react-icons/bi'
+import { BsFolder } from 'react-icons/bs'
 
-import { BsFolder, BsSun, BsMoon } from 'react-icons/bs'
+import LanguageButton from '../../context/LanguageButton'
+import BtnDarkMode from '../../context/btnDarkMode'
 
-function Nav () {
+export default function Nav () {
   const [activeNav, setActiveNav] = useState('#')
 
   return (
@@ -47,20 +49,18 @@ function Nav () {
           <BiMessageSquareDetail />
         </a>
       </nav>
-      <div className='utilities'>
-        <a
-          href='#language'
-        >
-          <BsSun />
-        </a>
-        <a
-          href='#mode'
-        >
-          <BsMoon />
-        </a>
-      </div>
+
+      {/* Spanish/English button & Dark/Light button */}
+      <label className='utilities'>
+        <LanguageButton
+          name='lang-mode'
+          id='lang-mode'
+          className='btn-lang'
+        />
+        <BtnDarkMode
+          id='dark-mode'
+        />
+      </label>
     </>
   )
 }
-
-export default Nav

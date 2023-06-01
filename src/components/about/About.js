@@ -4,11 +4,15 @@ import ME from '../../assets/me-about.png'
 import Verificado from '../../assets/icons-languages/icon-animated/verificado1.gif'
 import Carpeta from '../../assets/icons-languages/icon-animated/Carpeta.gif'
 
+import { useTranslation } from 'react-i18next'
+
 function About () {
+  // eslint-disable-next-line no-unused-vars
+  const [t, i18n] = useTranslation('global')
   return (
     <section id='about'>
-      <h5>Algo más</h5>
-      <h2>Sobre Mi</h2>
+      <h5>{t('about.subtitulo_about')}</h5>
+      <h2>{t('about.titulo_about')}</h2>
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -21,8 +25,8 @@ function About () {
           <div className='about__cards'>
             <article className='about__card'>
               <img src={Verificado} alt='verificado' className='about__icon' />
-              <h5>Experiencia</h5>
-              <small>1 Año trabajando</small>
+              <h5>{t('about.titulo_años')}</h5>
+              <small>{t('about.subtitulo_años')}</small>
             </article>
 
             {/* <article className='about__card'>
@@ -33,21 +37,20 @@ function About () {
 
             <article className='about__card'>
               <img src={Carpeta} alt='carpeta' className='about__icon' />
-              <h5>Proyectos</h5>
-              <small>8+ completados</small>
+              <h5>{t('about.titulo_proyectos')}</h5>
+              <small>{t('about.subtitulo_proyectos')}</small>
             </article>
           </div>
 
           <p>
-            Apasionado por la tecnología, la programación y el diseño. Me encantan los retos y el trabajo en equipo.
+            {t('about.about_me1')}
             <hr />
-            Con ganas de aportar mis conocimiento y aprender siempre en modo organizado.
-            Especializándome en Desarrollo Web y Diseño Web, con el objetivo de hacer la mejor experencia para el usuario.
+            {t('about.about_me2')}
             <hr />
-            Me encantaría tener ocasión de demostrar mis habilidades en su empresa.
+            {t('about.about_me3')}
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Hablemos</a>
+          <a href='#contact' className='btn btn-primary'>{t('about.boton_hablemos')}</a>
         </div>
       </div>
     </section>
