@@ -7,10 +7,10 @@ const HeaderSocials = () => {
   return (
     <div className='header__socials'>
       <a href='https://github.com/lorenzo-mm' target='_black'>
-        <UseAnimations animation={Github} size={32} strokeColor='#4db5ff' />
+        <UseAnimations animation={Github} size={32} strokeColor='var(--color-primary)' />
       </a>
       <a href='https://www.linkedin.com/in/lorenzo-mmuñoz/' target='_black'>
-        <UseAnimations animation={Linkedin} size={32} strokeColor='#4db5ff' />
+        <UseAnimations animation={Linkedin} size={32} strokeColor='var(--color-primary)' />
       </a>
     </div>
   )
