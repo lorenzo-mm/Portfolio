@@ -34,7 +34,7 @@ nav a.active {
 
 .utilities {
   background: rgba(0, 0, 0, 0.3);
-  width: max-content;
+  width: 7.6rem;
   display: block;
   padding: 0.5rem;
   z-index: 2;
@@ -42,25 +42,19 @@ nav a.active {
   right: 2rem;
   top: 2rem;
   display: flex;
-  gap: 0.8rem;
+  gap: .75rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
 
-.utilities a {
+.btn-lang {
+  height: 2.9rem;
+  width: 3rem;
+  padding: 0.2rem;
   background: transparent;
-  padding: .9rem;
-  border-radius: 50%;
-  display: flex;
-  color: var(--color-light);
-  font-size: 1.1rem;
+  border-radius: 3rem;
 }
 
-.utilities a:hover {
+.btn-lang input:hover {
   background: rgba(0, 0, 0, 0.3);
-}
-
-.utilities a.active {
-  background: var(--color-primary);
-  color: var(--color-bg);
 }
