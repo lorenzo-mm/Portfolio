@@ -22,7 +22,7 @@
   --color-primary: #43ff9e;
   --color-primary-variant: rgba(1, 82, 40, 0.4);
   --color-white: #fff;
-  --color-light: rgba(0, 0, 0, .7);
+  --color-light: rgba(0, 0, 0, 0.7);
 
   --transition: all 400ms ease;
 
